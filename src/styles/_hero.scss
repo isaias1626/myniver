@@ -1,3 +1,5 @@
+@use "variables";
+
 .hero {
     background-image: url(../images/happy.png);
     background-repeat: no-repeat;
@@ -19,7 +21,7 @@
         padding-top: 270px;
         padding-bottom: 210px;
         font-size: 40px;
-        line-height: 56px;
+        line-height: 69px;
         font-weight: bold;
         text-align: center;
     }

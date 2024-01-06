@@ -5,19 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Niver</title>
     <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
-</head>
 <body>
     <header class="hero">
         <div class="container">
             <p class="hero__text">
-                Meu aniversário está próximo falta apenas <span></span>
+                Meu aniversário está próximo falta apenas <br> <span id="contador"></span>
             </p>
         </div>
     </header>
-
-
+<section class="event">
+    <div class="container" data-aos="fade-down">
+        <div class="event__details">
+            <h2 class="event__details__title">
+                Agradecimentos
+            </h2>
+            <p class="event__details__description">
+                Ao celebrar meu aniversário, reflito com profunda gratidão pelos anos vividos. Cada experiência, alegria ou desafio moldou quem sou. Agradeço por risos compartilhados, lágrimas superadas e lições valiosas. Às amizades que enriqueceram meus dias e aos amores que aqueceram meu coração, minha sincera gratidão. Cada aniversário é um marco da evolução constante. Celebro as pequenas alegrias, os sonhos que me impulsionam e as oportunidades que ampliam horizontes. Agradeço por pessoas que cruzaram meu caminho, deixando marcas positivas. Neste dia, agradeço à vida pela jornada única e pelos anos enriquecedores.
+                <br>
+                <br>
+                Nascimento 06/01/2002
+            </p>
+        </div>
+        <img class="event__image" src="./images/isaias.png" alt="person">
+    </div>
+</section>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./scripts/main.js"></script>
 </body>
 </html>
